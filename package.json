@@ -1,0 +1,24 @@
+{
+  "name": "llm-email-manager-web-app",
+  "version": "1.0.0",
+  "description": "A simple Node.js web app using **Express** and **imap** to connect to your email inbox (e.g., Gmail), list emails, and read email content via IMAP.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeanderZiehm/llm-email-manager-web-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LeanderZiehm/llm-email-manager-web-app/issues"
+  },
+  "homepage": "https://github.com/LeanderZiehm/llm-email-manager-web-app#readme",
+  "dependencies": {
+    "express": "^5.1.0",
+    "imap": "^0.8.19"
+  }
+}
